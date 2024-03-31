@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "8e312dc1-6417-4ee5-99b3-1405ff9da59f",
+		"name": "Batteries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "27403627-8e312dc1-6417-4ee5-99b3-1405ff9da59f"
+	},
+	"item": [
+		{
+			"name": "http://localhost/api-res/batteries/update?battery_name=yftryteyty&qty=685&target_qty=76",
+			"id": "38b74fcb-521a-460c-9760-a715283a376d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "seeds_zeJuVa6zHeSUTEZb8uSRWOM4EakkPLUQCjnSbu4WvWY5irXQTNZRN2A311eBFoMY1mq1Wt7Srh8v0f484goe4c2Iffsq2dNbrIzeHWMDeCOFvVRI9XPKpqbGVX",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "X-API-Key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "battery_name",
+							"value": "dhdd",
+							"type": "text"
+						},
+						{
+							"key": "qty",
+							"value": "5658",
+							"type": "text"
+						},
+						{
+							"key": "target_qty",
+							"value": "56",
+							"type": "text"
+						},
+						{
+							"key": "battery_code",
+							"value": "rttr",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "active",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/api-res/batteries/update?battery_name=yftryteyty&qty=685&target_qty=76",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-res",
+						"batteries",
+						"update"
+					],
+					"query": [
+						{
+							"key": "battery_code",
+							"value": "ytuyr",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "battery_name",
+							"value": "yftryteyty",
+							"type": "text"
+						},
+						{
+							"key": "qty",
+							"value": "685",
+							"type": "text"
+						},
+						{
+							"key": "target_qty",
+							"value": "76",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "active",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
